@@ -68,6 +68,7 @@ p {
 #page-header nav {
 	float: right;
 }
+
 #page-header nav li {
 	float: left;
 }
@@ -191,6 +192,12 @@ footer {
 	padding: 2% 3%;
 }
 
+@media (min-width: 600px) {
+	.mobile {
+		display: none !important;
+	}
+}
+
 @media (max-width: 600px) {
   body {
 		display: flex;
@@ -236,7 +243,11 @@ footer {
 		width: 100%;
 	}
 
-ul {
+  .desktop {
+		display: none;
+	}
+
+	.mobile {
 		display: none;
 	}
 

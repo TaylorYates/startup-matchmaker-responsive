@@ -1,11 +1,10 @@
 function menuDown() {
-  $("nav").slideToggle();
+  $("nav.mobile").slideToggle();
 }
 
 
 function start() {
   $("#hamburger").click(menuDown);
-  
 }
 
 $(document).ready(start);
